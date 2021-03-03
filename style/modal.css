@@ -1,0 +1,33 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+
+.modal-content{
+    background-color: var(--preta);
+    
+}
+
+.modal-header {
+    color: var(--vermelho);
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-color: var(--vermelho);
+}
+
+.modal-title {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.fechar-modal {
+    background-color: var(--preta);
+    border: none;
+    color: var(--vermelho);
+    margin-left: 5px;
+    font-size: 20px;
+
+}
+
